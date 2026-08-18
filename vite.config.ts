@@ -5,7 +5,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 // Relative Base, damit der Build auch in einem Unterverzeichnis statisch ausgeliefert
 // werden kann (GitHub Pages o. Ä.). Routing laeuft ueber den Hash, also ohne Rewrites.
 export default defineConfig({
-  base: './',
+  base: '/flschnepf.github.io/',
   plugins: [
     react(),
     VitePWA({
