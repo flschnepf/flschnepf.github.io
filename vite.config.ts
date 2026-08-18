@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
+// Test deployment fix
 // Relative Base, damit der Build auch in einem Unterverzeichnis statisch ausgeliefert
 // werden kann (GitHub Pages o. Ä.). Routing laeuft ueber den Hash, also ohne Rewrites.
 export default defineConfig({
